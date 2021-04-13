@@ -1,0 +1,92 @@
+#main{
+    display: grid;
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    grid-template-rows: auto 1fr 1fr auto;
+}
+
+#searchField {
+    justify-self: center;
+    margin: 5px;
+}
+
+#container1 {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#div1 {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#pImg {
+    height: 100%;
+    width: 100%;
+}
+
+#name {
+    padding: 5px;
+}
+
+#pokemonTypes {
+    border: 1px solid black;
+    height: 80px;
+}
+
+#imgDiv {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.type {
+    height: 15px;
+    width: 50px;
+    display: none;
+}
+
+#types {
+    padding: 5px 0 5px 10px
+}
+
+#typeText {
+    display: flex;
+    flex-direction: row;
+}
+
+#typeText > div {
+    padding: 0 5px 0 5px;
+}
+
+#abilities {
+    padding: 5px 0 5px 10px;
+}
+
+#aText {
+    font-size: 20px;
+}
+
+.aInfo {
+    font-size: 12px;
+    padding: 0 5px 0 10px;
+}
+
+.aDiv {
+    padding: 5px 0 0 5px;
+}
+
+#container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#container2 > div {
+    border: 1px solid black;
+    height: 100px;
+}
